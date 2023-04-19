@@ -1,0 +1,123 @@
+.products{
+    position: absolute;
+    top:70px;
+    right:0;
+    width: 92%;
+    transition: all 0.5s;
+    overflow-x: hidden;
+
+    &.products_{
+        width: 80%;
+    }
+
+    .head{
+        width: 100%;
+        border-bottom: 1px solid;
+        height: 70px;
+        border: 1px solid rgb(222, 223, 223);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .section1{
+            margin-left: 30px;
+            display: flex;
+            align-items: center;
+            h3{
+                font-family: sans-serif;
+            }
+            p{
+                margin: 0px 10px;
+                font-family: sans-serif;
+            }
+            a{
+                margin-left: 10px;
+                font-family: sans-serif;
+            }
+        }
+        .section2{
+            margin-right: 20px;
+            
+            .new_products{
+                border: none;
+                margin-right:20px;
+                padding: 10px 10px;
+                font-size: 16px;
+                font-weight: 500;
+                border-radius: 6px;
+                background-color:rgb(93, 116, 250);
+                color: #fff;
+                cursor: pointer;
+            }
+            .three_points{
+                border:1px solid rgb(222, 223, 223);
+                width: 40px;
+                height: 35px;
+                font-size: 20px;
+                font-weight: 500;
+                border-radius: 6px;
+                color:rgb(120, 120, 120);
+                background: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .body{
+        padding: 10px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:628px){
+    .products{
+        width: 87%;
+
+        .head{
+            .section1{
+                margin-left: 10px;
+                h3{
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 13px;
+                }
+                a{
+                    font-size: 12px;
+                }
+            }
+            .section2{
+                margin-right: 10px;
+
+                .new_products{
+                    border: none;
+                    margin-right:10px;
+                    padding: 7px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    border-radius: 6px;
+                    background-color:rgb(93, 116, 250);
+                    color: #fff;
+                    cursor: pointer;
+                }
+
+                .three_points{
+                    border:1px solid rgb(222, 223, 223);
+                    width: 40px;
+                    height: 30px;
+                    font-size: 16px;
+                }
+            }
+        }
+        .body{
+            padding: 10px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+            align-items: center;
+        }
+    }
+}

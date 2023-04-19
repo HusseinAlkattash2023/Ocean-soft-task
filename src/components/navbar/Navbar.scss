@@ -1,0 +1,129 @@
+.navbar{
+    position: absolute;
+    top: 0px;
+    background-color:rgb(222, 223, 223);
+    width:92%;
+    right: 0px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5s;
+
+    &.navbar_{
+        width: 80%;
+    }
+
+    .search{
+        margin: 0px 0px 0px 46px;
+        input{
+            width: 350px;
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+            padding: 10px 20px;
+        }
+        .icon{
+            position: relative;
+            color: rgb(158, 161, 161);
+            right: 30px;
+            top:2px;
+            cursor: pointer;
+        }
+    }
+    .section2{
+        margin-right: 10px;
+        width: 300px;
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .welcome{
+            display: flex;
+            align-items: center;
+            h5{
+                font-family: sans-serif;
+                span{
+                    color: rgb(93, 116, 250);
+                }
+            }
+            span{
+                font-size: 13px;
+                font-family: sans-serif;
+                color:rgb(106, 106, 106);
+                cursor: pointer;
+            }
+            .avatar{
+                position: relative;
+                width: 45px;
+                height: 45px;
+                display: grid;
+                place-items: center;
+                margin-left: 15px;
+                position: relative;
+                div{
+                    width: 10px;
+                    height: 10px;
+                    background-color: rgb(37, 255, 77);
+                    position: absolute;
+                    z-index: 11;
+                    bottom:0px;
+                    left:8px;
+                    border-radius: 50%;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    position: relative;
+                }
+
+            }
+        }
+        .other{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 6px;
+            span{
+                margin: 0px 8px;
+                color:rgb(49, 49, 49);
+                position: relative;
+                cursor: pointer;
+
+                &::before{
+                    content: "";
+                    width: 8px;
+                    height: 8px;
+                    background-color: red;
+                    position: absolute;
+                    right: 2px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    .navbar{
+        .search{
+            margin: 0px 0px 0px 26px;
+            input{
+                width: 250px;
+            }
+        }
+    }
+}
+@media screen and (max-width:628px){
+    .navbar{
+        width: 87%;
+        .search{
+            display: none;
+        }
+        .section2{
+            position: absolute;
+            right: 0px;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "image": "image1.png",
+    "name": "adidas",
+    "price": 36,
+    "rating": 3
+  },
+  {
+    "id": 2,
+    "image": "image2.png",
+    "name": "adidas",
+    "price": 40,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "image": "image3.png",
+    "name": "adidas",
+    "price": 25,
+    "rating": 3
+  },
+  {
+    "id": 4,
+    "image": "image4.png",
+    "name": "adidas",
+    "price": 76,
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "image": "image5.png",
+    "name": "adidas",
+    "price": 55,
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "image": "image6.png",
+    "name": "adidas",
+    "price": 33,
+    "rating": 3
+  },
+  {
+    "id": 7,
+    "image": "image7.png",
+    "name": "adidas",
+    "price": 45,
+    "rating": 4
+  },
+  {
+    "id": 8,
+    "image": "image8.png",
+    "name": "adidas",
+    "price": 39,
+    "rating": 4
+  },
+  {
+    "id": 9,
+    "image": "image9.png",
+    "name": "adidas",
+    "price": 77,
+    "rating": 5
+  },
+  {
+    "id": 10,
+    "image": "image10.png",
+    "name": "adidas",
+    "price": 50,
+    "rating": 5
+  }
+]
